@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e1323;
+}
+
+span {
+    font-family: "Rubik", sans-serif;
+}
+
+.reporter {
+    background-color: #1c204b;
+}
+
+.reporter-inner {
+    background-color: #5747ea;
+}
+
+.reporter img{
+    width: 56px;
+    border: #fff solid 2px;
+    border-radius: 50%;
+}
+
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.reporter {
+    border-radius: 15px;
+}
+
+.reporter-inner {
+    display: flex;
+    border-radius: 15px;
+    gap: 20px;
+    padding: 35px 40px;
+}
+
+.jeremy-data {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.report-for {
+    font-size: 15px;
+    color: #bbc0ff;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.daily {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.daily span {
+    font-size: 18px;
+    color: #7078c9;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.daily .weekly {
+    color: #fff;
+}
+
+.box {
+    width: 327px;
+    border-radius: 16px;
+    padding-top: 38px;
+}
+
+
+.inner-box {
+    background-color: #1c204b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    gap: 7px;
+    padding: 28px 24px;
+}
+
+.action {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.hours {
+    font-size: 32px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.last-week {
+    font-size: 15px;
+    color: #bbc0ff;
+}
+
+.top-div, .bottom-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work, .play, .study, .exercise, .social, .self-care {
+    background-position: 95% -17%;
+    background-repeat: no-repeat;
+}
+
+.work {
+    background-color: #ff8b64;
+    background-image: url("./images/icon-work.svg");
+}
+
+.play {
+    background-color: #55c2e6;
+    background-image: url("./images/icon-play.svg");
+}
+
+.study {
+    background-color: #ff5e7d;
+    background-image: url("./images/icon-study.svg");
+}
+
+.exercise {
+    background-color: #4bcf82;
+    background-image: url("./images/icon-exercise.svg");
+}
+
+.social {
+    background-color: #7335d2;
+    background-image: url("./images/icon-social.svg");
+}
+
+.self-care {
+    background-color: #f1c75b;
+    background-image: url("./images/icon-self-care.svg");
+}
