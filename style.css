@@ -153,3 +153,78 @@ span {
     background-color: #f1c75b;
     background-image: url("./images/icon-self-care.svg");
 }
+
+br {
+    display: none;
+}
+
+@media (min-width:1439px) {
+    body {
+        height: 100vh;
+    }
+
+    .main-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+
+    .reporter {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 100%;
+    }
+
+    .reporter-inner {
+        flex-direction: column;
+        padding-bottom: 80px;
+        gap: 43px;
+    }
+
+    br {
+        display: block;
+    }
+
+    .reporter img {
+        width: 78px;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .daily {
+        flex-direction: column;
+        gap: 21px;
+        padding: 33px 32px;
+    }
+
+    .daily span {
+        text-align: start;
+    }
+
+    .inner-box {
+        gap: 25px;
+        padding: 29px 30px 32px;
+    }
+
+    .hours {
+        font-size: 56px;
+    }
+
+    .bottom-div {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+    }
+
+    .box {
+        width: 255px;
+        padding-top: 45px;
+    }
+
+    .work, .play, .study, .exercise, .social, .self-care {
+        background-position: 95% -5%;
+    }
+}
