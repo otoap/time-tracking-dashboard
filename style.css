@@ -158,6 +158,20 @@ br {
     display: none;
 }
 
+.dots {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    padding: 5px;
+}
+
+.dots span {
+    background: #d8d8d8;
+    border:3px solid #d8d8d8;
+    border-radius: 50%;
+    flex-grow: 1;
+}
+
 @media (min-width:1439px) {
     body {
         height: 100vh;
@@ -206,7 +220,7 @@ br {
 
     .inner-box {
         gap: 25px;
-        padding: 29px 30px 32px;
+        padding: 32px 30px 32px;
     }
 
     .hours {
@@ -226,5 +240,21 @@ br {
 
     .work, .play, .study, .exercise, .social, .self-care {
         background-position: 95% -5%;
+    }
+
+    /*hovers*/
+
+    .inner-box:hover {
+        background-color: #33397a;
+        cursor: pointer;
+    }
+
+    .daily span:hover {
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .dots:hover .inner-box {
+        background-color: #1c204b;
     }
 }
